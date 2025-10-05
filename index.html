@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<div>
+  <nav class="navbar">
+      <li><h2>Parth Bhardwaj</h2></li>
+      <div>
+      <nav>
+         <button><a href="./Education.html">Education</a></button>
+         <button><a href="./Skills.html">Skills</a></button>
+         <button><a href="./Contact.html">Contact</a></button>
+   </nav>
+     </div>
+    </nav>
+</div>
+<body>
+  <div class="logo">My Resume</div>
+    <section class="Intro">
+        <div class="Intro-Content">
+            <img src="./WhatsApp Image 2025-04-22 at 7.42.33 PM.jpeg" alt="Profile" class="Profile Image" height="500">
+            <div class="Intro-text">
+                <h1>Parth Bhardwaj</h1>
+                <h3>Student</h3>
+                <Button><a href="./Contact.html" id="reach">Reach Out</a></Button>
+            </div>
+        </div>
+    </section>
+     <!-- ABOUT ME -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am a student and a freelancer who is currently navigating the exciting intersaction of technology and business.
+        </p>
+      </div>
+      <img src="./download.jpeg" alt="Laptop" class="about-img">
+    </div>
+  </section>
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+        <h2>Relevant Experience</h2>
+        <div class="exp-item">
+          <span class="year">2025</span>
+          <div>
+            <h3>Building A Venture in RS 250</h3>
+            <p class="company">College Assignment</p>
+            <p>In this assignmnet i build a venture in just RS 250 and rus it for an hour</p>
+          </div>
+        </div>
+        <div class="exp-item">
+            <span class="year">2025</span>
+            <div>
+              <h3>Building a Website</h3>
+              <p class="company">Hypermart</p>
+              <p>In this assignment i build a website for Hypermart [a local supermarket store]</p>
+            </div>
+          </div>
+        </section>
+      
+<!-- EDUCATION -->
+<section class="education" id="education">
+    <h2>Education, Certifications & Other Works</h2>
+    <div class="edu-item">
+      <h3>Bachelor’s Degree in Marketing Management</h3>
+      <p>Indian Institute of Management,Banglore - 2024-27</p>
+    </div>
+
+    <div class="edu-item">
+      <h3>High-Schooling</h3>
+      <p>Prem Public School[CBSE] (2021–2023)</p>
+    </div>
+  </section>
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="skills-content">
+      <div class="skills-left">
+        <h2>Skills & Proficiencies</h2>
+      </div>
+      <div class="skills-right">
+        <h3>Professional Skills</h3>
+        <ul>
+          <li>Social Media Marketing</li>
+          <li>Interpersonal Communication</li>
+          <li>Copywriting & Editing</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ul>
+          <li>Fluent in English</li>
+          <li>Fluent in Hindi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+           <!-- FOOTER -->
+  <footer id="contact">
+    <p>📧 bhardwajparth612@gmail.com | 📞 +91 9027713337</p>
+  </footer>
+
+  <script>
+    // Smooth scroll for navbar links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+    
+</body>
+</html>
